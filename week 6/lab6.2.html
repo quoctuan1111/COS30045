@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description"	content="Data Visualisation Exercise 6"/>
+	<meta name="keywords"		  content="HTML, CSS, D3"/>
+	<meta name="author"			  content="Tran Hung Quoc Tuan"/>
+
+	<title>Task 6.2 D3 Interactivity - Sort
+</title>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./script6.2.js"></script>
+	
+	<style>
+        button {
+            padding: 6px 18px;
+            font-size: 14px;
+            border-radius: 6px;
+            border: 1px solid #888;
+            background: #f0f0f0;
+            color: #333;
+            cursor: pointer;
+            margin: 3px 6px 3px 0;
+            transition: background 0.2s, color 0.2s;
+        }
+        button:hover {
+            background: #0078d7;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Update Data</h1>
+    <p><button id="Add">Add</button><button id="Remove">Remove</button><button id="SortButton">Sort</button></p></p>
+    <div id="chart"></div>
+    
+	<footer style="color:grey">COS30045 Data Visualisation <br>Quoc Tuan</footer>
+</body>
+</html>
+
