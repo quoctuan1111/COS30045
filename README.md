@@ -1,124 +1,26 @@
-📘 COS30082 — Applied Machine Learning
+Machine Learning Final Assignment (COS30082 – Applied Machine Learning)
 
-This repository contains practical exercises, notebooks, and assignments completed for COS30082 – Applied Machine Learning.
-The goal of the course is to apply machine learning concepts using Python to build, train, evaluate, and interpret predictive models.
+Developed a complete end-to-end machine learning workflow using Python and Jupyter Notebook.
 
-🚀 Project Overview
+Performed data cleaning, EDA, feature engineering, and applied scaling/encoding to prepare the dataset for modeling.
 
-This repository includes multiple Jupyter Notebooks demonstrating:
-
-Data preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Feature engineering
-
-Model development
-
-Model evaluation & comparison
-
-Interpretation of results
-
-These notebooks serve as both coursework submissions and personal learning documentation.
-
-🧰 Technologies & Tools
-
-Python 3.x
-
-Jupyter Notebook
-
-Pandas, NumPy
-
-Scikit-learn
-
-Matplotlib / Seaborn
-
-Git & GitHub
-📊 Machine Learning Tasks Covered
-1️⃣ Regression Tasks
-
-Examples include predicting continuous values such as:
-
-Housing prices
-
-Vehicle emissions
-
-Economic numeric indicators
-
-Typical algorithms used:
-
-Linear Regression
-
-Random Forest Regressor
-
-Decision Tree Regressor
-
-KNN Regressor
-
-Evaluation metrics:
-
-RMSE
-
-MAE
-
-R² Score
-
-2️⃣ Classification Tasks
-
-Examples include predicting:
-
-Customer churn
-
-Disease presence
-
-Image or text labels
-
-Algorithms covered:
+Built and compared multiple ML models such as:
 
 Logistic Regression
 
-Random Forest Classifier
+Random Forest
 
-KNN Classifier
+k-NN
 
-Naive Bayes
+Decision Trees
 
-Evaluation metrics:
+Evaluated models using: Accuracy, Precision, Recall, F1-score, Confusion Matrix.
 
-Accuracy
+Visualized model performance and dataset patterns using Matplotlib & Seaborn.
 
-Precision, Recall, F1-score
+Selected the best-performing model and explained prediction behavior using feature importance & error analysis.
 
-Confusion Matrix
+Documented the entire ML pipeline, results, and insights in a structured notebook.
 
-3️⃣ Clustering Tasks
-
-K-means clustering
-
-Hierarchical clustering
-
-Data segmentation for unsupervised learning
-
-📈 Sample Workflow in the Notebooks
-
-Each notebook typically follows:
-
-Load Dataset
-
-Data Cleaning
-
-Exploratory Data Analysis
-
-Feature Engineering
-
-Train-Test Split
-
-Model Training
-
-Model Evaluation
-
-Comparison of Algorithms
-
-Conclusion / Insights
-
-This workflow demonstrates practical machine learning knowledge for real-world applications.
+Key Skills Demonstrated:
+Python · Pandas · NumPy · Scikit-learn · Machine Learning Pipeline · Data Cleaning · EDA · Visualization · Model Evaluation
